@@ -1,18 +1,20 @@
-C Application
-======================
-This is a simple C application. This application serves as a basic template for a console application using C.
+# Hospital Pharmacy Stock System
 
-What does this application do?
--------------------------------
-This application prints "Hello, World!" to the console.
+A console-based inventory management application written in C for tracking and managing hospital pharmacy medicines and stock levels.
 
-# How to run?
-You can run the application in one of the following ways:
+## Features
+- Add new medicines (ID, name, batch/expiry date, quantity, unit price)
+- View current pharmacy inventory
+- Search for medicines by name or ID
+- Update stock quantities (restocking and dispensing)
+- Low-stock and expiration alerts
 
-1. Open a terminal by going to 'View' -> 'Terminal'. Then run:
-    > `gcc main.c`
-    > `./a.out`
+## Prerequisites
+- A C compiler such as `gcc`
 
-This will start the application.
+## How to Compile and Run
 
-Happy coding! 🙂
+1. Open a terminal in the project directory.
+2. Compile the source code:
+   ```bash
+   gcc main.c -o pharmacy
